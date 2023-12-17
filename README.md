@@ -1,0 +1,1 @@
+# bakso-arisan-app

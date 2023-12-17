@@ -1,0 +1,34 @@
+
+section.home.light{
+    background-color: white;
+}
+section.home.dark{
+    background-color: black;
+}
+
+.gradientTop {
+    background: var(--top-shadow-light);
+    height: 50px;
+    margin-bottom: 2rem;
+}
+
+.gradientTop.dark{
+    background: var(--top-shadow-dark);
+}
+
+.gradientBottom{
+    background: var(--bottom-shadow-light);
+    height: 50px;
+}
+.gradientBottom.dark{
+    background: var(--bottom-shadow-dark);
+}
+
+section.home hr{
+    width: 80vw;
+    margin: 0 auto;
+    color:  var(--primary-color);
+    height: 4px;
+    margin-top: 2rem;
+
+}

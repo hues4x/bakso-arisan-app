@@ -1,0 +1,85 @@
+
+section.headerMain{
+    padding: 8rem 0;
+    
+}
+
+.text{
+    margin: 5rem 0;
+}
+
+.text h1{
+    color: #0F1765;
+    font-size: 3rem;
+}
+.text.dark h1{
+    color: white;
+}
+
+.text.light p, a{
+    color: #0F3765 !important;
+    font-family: var(--popins);
+    font-weight: 500;
+}
+
+.text.dark p,a{
+    font-family: var(--popins);
+    font-weight: 500;
+    color: white !important;
+}
+
+button.launchApp{
+    text-transform: uppercase;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid white;
+    padding: .5rem 4rem;
+    font-size: 1.1rem;
+    transition: all ease .6s;
+}
+
+button.launchApp.dark{
+    background-color:#454447;
+    border: 0 !important;
+}
+
+button.launchApp:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+img.headerMainLogo{
+    width: 25rem;
+}
+
+
+
+@media (max-width:768px){
+    .text h1{
+        text-align: center;
+    }
+    .text.light p, a,.text.dark p, a{
+       text-align: center;
+    }
+    
+    .col-lg-6.d-flex.justify-content-end.align-items-center{
+        justify-content: center !important;
+        margin-top: 3rem;
+    }
+    section.headerMain{
+        padding: 1rem 0;
+    }
+    .text{
+        margin: 3rem 0;
+    }
+    button.launchApp.dark{
+        margin: 0 auto;
+    }
+    button.launchApp.light{
+        display: flex;
+        margin: 0 auto;
+    }
+}

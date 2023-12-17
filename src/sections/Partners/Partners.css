@@ -1,0 +1,16 @@
+
+section.partners{
+    height: 80vh;
+}
+
+.partnersHeading h1{
+    color: #0F1765;
+    font-size:3rem;
+    text-align: center;
+    font-family: var(--alatsi);
+    text-transform: uppercase;
+}
+
+.partnersHeading.dark h1{
+    color: white;
+}
